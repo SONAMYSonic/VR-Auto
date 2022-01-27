@@ -15,12 +15,12 @@ C:/MinKyun/Git/VR Auto Git
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-3462
+12298
 Successfully changed project path to: C:/MinKyun/Git/VR Auto Git
 C:/MinKyun/Git/VR Auto Git
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.25 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.74 ms.
+Refreshing native plugins compatible for Editor in 47.53 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.69 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/MinKyun/Git/VR Auto Git/Assets
@@ -35,75 +35,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001520 seconds.
+Registered in 0.001597 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.53 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 42.31 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.437 seconds
+- Completed reload, in  0.470 seconds
 Domain Reload Profiling:
-	ReloadAssembly (437ms)
-		BeginReloadAssembly (36ms)
+	ReloadAssembly (471ms)
+		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (348ms)
-			LoadAssemblies (35ms)
+		EndReloadAssembly (371ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (131ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (143ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (58ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005708 seconds.
+Registered in 0.005943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.767 seconds
+- Completed reload, in  0.772 seconds
 Domain Reload Profiling:
-	ReloadAssembly (768ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (772ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
 		EndReloadAssembly (624ms)
-			LoadAssemblies (63ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (219ms)
-			ReleaseScriptCaches (0ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (232ms)
+			SetupLoadedEditorAssemblies (233ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadAttributes (149ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -113,167 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2039 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.1 MB.
-System memory in use after: 91.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2486.
-Total: 2.279600 ms (FindLiveObjects: 0.127300 ms CreateObjectMapping: 0.044500 ms MarkObjects: 2.038000 ms  DeleteObjects: 0.068600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/Gunner.prefab
-  artifactKey: Guid(365933884b202ed49849389c1983401d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gunner.prefab using Guid(365933884b202ed49849389c1983401d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd06bc1a6e1d4815cec8777a0fcb0df4') in 0.151077 seconds 
-  Import took 0.155938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.429624 seconds.
-  path: Assets/Prefabs/Gunner.prefab
-  artifactKey: Guid(365933884b202ed49849389c1983401d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gunner.prefab using Guid(365933884b202ed49849389c1983401d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8facd0fcc8c5db08d7b90134c8dabd0') in 0.026300 seconds 
-  Import took 0.030796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.012990 seconds.
-  path: Assets/Prefabs/Gunner.prefab
-  artifactKey: Guid(365933884b202ed49849389c1983401d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gunner.prefab using Guid(365933884b202ed49849389c1983401d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd23e7609a4957ed548f993f290d506d') in 0.024273 seconds 
-  Import took 0.029198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.591935 seconds.
-  path: Assets/Prefabs/Sniper.prefab
-  artifactKey: Guid(9cafb3d91ace1fb40aeff7b38d4d71cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sniper.prefab using Guid(9cafb3d91ace1fb40aeff7b38d4d71cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c02de0037b78a2bf95b5ad240067796') in 0.040567 seconds 
-  Import took 0.045189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.371368 seconds.
-  path: Assets/Prefabs/Sniper.prefab
-  artifactKey: Guid(9cafb3d91ace1fb40aeff7b38d4d71cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sniper.prefab using Guid(9cafb3d91ace1fb40aeff7b38d4d71cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b756b4f8de1fd8627b4f7fbdbf60d1') in 0.023788 seconds 
-  Import took 0.028070 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005828 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
-Domain Reload Profiling:
-	ReloadAssembly (705ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (567ms)
-			LoadAssemblies (61ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (212ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.06 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2498.
-Total: 2.431400 ms (FindLiveObjects: 0.130300 ms CreateObjectMapping: 0.034400 ms MarkObjects: 2.247700 ms  DeleteObjects: 0.017900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005861 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
-Domain Reload Profiling:
-	ReloadAssembly (738ms)
-		BeginReloadAssembly (81ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (612ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (228ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (148ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.8 MB.
+Unloading 2040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2501.
-Total: 2.592400 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.045900 ms MarkObjects: 2.341700 ms  DeleteObjects: 0.016000 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2488.
+Total: 2.450000 ms (FindLiveObjects: 0.140900 ms CreateObjectMapping: 0.037500 ms MarkObjects: 2.185100 ms  DeleteObjects: 0.085600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -288,324 +135,103 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005776 seconds.
+Registered in 0.007296 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
-Domain Reload Profiling:
-	ReloadAssembly (744ms)
-		BeginReloadAssembly (92ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (608ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (223ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (147ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2504.
-Total: 3.511800 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.042900 ms MarkObjects: 3.267300 ms  DeleteObjects: 0.026400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005663 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
+- Completed reload, in  0.825 seconds
 Domain Reload Profiling:
-	ReloadAssembly (738ms)
-		BeginReloadAssembly (88ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (606ms)
-			LoadAssemblies (61ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (225ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (223ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (148ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2507.
-Total: 3.905400 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.108000 ms MarkObjects: 3.556000 ms  DeleteObjects: 0.019300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005377 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.706 seconds
-Domain Reload Profiling:
-	ReloadAssembly (706ms)
-		BeginReloadAssembly (85ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (58ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (210ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2510.
-Total: 3.335100 ms (FindLiveObjects: 0.220100 ms CreateObjectMapping: 0.047400 ms MarkObjects: 3.038400 ms  DeleteObjects: 0.027800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1007.851326 seconds.
-  path: Assets/Scripts/Game 1/UI_Shop.cs
-  artifactKey: Guid(cc692e374f91d9d45b351b2273caffac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Game 1/UI_Shop.cs using Guid(cc692e374f91d9d45b351b2273caffac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229e938e1f7d9ec710f82edb3f3b3a76') in 0.012035 seconds 
-  Import took 0.015449 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006590 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.695 seconds
-Domain Reload Profiling:
-	ReloadAssembly (695ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (826ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (564ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (687ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
+			SetupTypeCache (215ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (207ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2513.
-Total: 2.557200 ms (FindLiveObjects: 0.151600 ms CreateObjectMapping: 0.045300 ms MarkObjects: 2.336100 ms  DeleteObjects: 0.023300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006466 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.711 seconds
-Domain Reload Profiling:
-	ReloadAssembly (711ms)
-		BeginReloadAssembly (79ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (587ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (216ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2516.
-Total: 2.458800 ms (FindLiveObjects: 0.132800 ms CreateObjectMapping: 0.038300 ms MarkObjects: 2.268400 ms  DeleteObjects: 0.018300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005756 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
-Domain Reload Profiling:
-	ReloadAssembly (706ms)
-		BeginReloadAssembly (83ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (214ms)
+			SetupLoadedEditorAssemblies (236ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2491.
+Total: 3.430300 ms (FindLiveObjects: 0.128700 ms CreateObjectMapping: 0.033500 ms MarkObjects: 3.244700 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/CastEventToUI.cs
+  artifactKey: Guid(ccc01fcaf919f1c48b6e103f7ecb2905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CastEventToUI.cs using Guid(ccc01fcaf919f1c48b6e103f7ecb2905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b002f961c5b58a8beeacab96c0ab7a') in 0.030108 seconds 
+  Import took 0.033557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.999991 seconds.
+  path: Assets/Scripts/CastEventToUI.cs
+  artifactKey: Guid(ccc01fcaf919f1c48b6e103f7ecb2905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CastEventToUI.cs using Guid(ccc01fcaf919f1c48b6e103f7ecb2905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766c746c4b8441ea8b8439581166bd4d') in 0.003047 seconds 
+  Import took 0.005681 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (59ms)
@@ -616,14 +242,14 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.9 MB.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2519.
-Total: 2.559400 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.037800 ms MarkObjects: 2.289100 ms  DeleteObjects: 0.062000 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2494.
+Total: 3.266200 ms (FindLiveObjects: 0.204700 ms CreateObjectMapping: 0.056300 ms MarkObjects: 2.977900 ms  DeleteObjects: 0.025500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -638,806 +264,28 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005345 seconds.
+Registered in 0.005554 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.732 seconds
+- Completed reload, in  0.702 seconds
 Domain Reload Profiling:
-	ReloadAssembly (733ms)
+	ReloadAssembly (703ms)
 		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (614ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (224ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2522.
-Total: 3.661500 ms (FindLiveObjects: 0.210300 ms CreateObjectMapping: 0.087300 ms MarkObjects: 3.321900 ms  DeleteObjects: 0.039300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 667.132534 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeffController.prefab
-  artifactKey: Guid(b209c30bc3eb7884781069adc59ed447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeffController.prefab using Guid(b209c30bc3eb7884781069adc59ed447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271fb32d7c4c396fed7c1856c8304ecc') in 0.153405 seconds 
-  Import took 0.156442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.266934 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeff.prefab
-  artifactKey: Guid(48530aab98abaa541acf2cf3f3f06d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeff.prefab using Guid(48530aab98abaa541acf2cf3f3f06d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80591c6027161ff78692b4c6a96d85a') in 0.118377 seconds 
-  Import took 0.123337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Import/AutoChess/Effects/Frost Arrow.prefab
-  artifactKey: Guid(c14aa66cc778e414187125618135ae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/AutoChess/Effects/Frost Arrow.prefab using Guid(c14aa66cc778e414187125618135ae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70da1b893e30c0986b7950ba3a1777db') in 0.077532 seconds 
-  Import took 0.081236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Shoulders/HalfShoulder_Visor_Simple_Lvl3.prefab
-  artifactKey: Guid(30ef20a5b52c2ab43927142ff247ccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Shoulders/HalfShoulder_Visor_Simple_Lvl3.prefab using Guid(30ef20a5b52c2ab43927142ff247ccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3987022873301d085eab1ec6b9d8b2ad') in 0.037064 seconds 
-  Import took 0.041817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Gun_Mount_2x.fbx
-  artifactKey: Guid(ed9e0ff949820d4489e1719c2e81e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Gun_Mount_2x.fbx using Guid(ed9e0ff949820d4489e1719c2e81e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1376fdbb133aca1f34005c681cc9f60c') in 0.072692 seconds 
-  Import took 0.075660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JJHat.fbx
-  artifactKey: Guid(b3ac77097923838428fea9044967ced5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JJHat.fbx using Guid(b3ac77097923838428fea9044967ced5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61cc60f8db185cb8866111b99d6e813') in 0.046800 seconds 
-  Import took 0.049731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/AutoChess/Effects/icecube.prefab
-  artifactKey: Guid(3b2293f32fdde314aaf20f7bbeb003b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/AutoChess/Effects/icecube.prefab using Guid(3b2293f32fdde314aaf20f7bbeb003b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc1e17d776fb61aea96c4cbfb7c9157') in 0.025882 seconds 
-  Import took 0.028771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/Models/Furniture.fbx
-  artifactKey: Guid(2e710f2b5a4f9674183207e79056e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Furniture.fbx using Guid(2e710f2b5a4f9674183207e79056e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f96b9218ea617b0f4fb880825e0b2b') in 0.066664 seconds 
-  Import took 0.069805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Backpack_Barrier_Lvl2.fbx
-  artifactKey: Guid(7cdb5137bf9c2934eacb688a5e96cc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Backpack_Barrier_Lvl2.fbx using Guid(7cdb5137bf9c2934eacb688a5e96cc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a253aede692d2ea63843bac4a155e79') in 0.020691 seconds 
-  Import took 0.023800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_DoubleGun_Lvl2.prefab
-  artifactKey: Guid(3ab27926232a7924d81bbc5377fdc0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_DoubleGun_Lvl2.prefab using Guid(3ab27926232a7924d81bbc5377fdc0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207ad1628ae0397476eaa36dc912489f') in 0.031897 seconds 
-  Import took 0.035953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Backpack_Barrier_Lvl1.prefab
-  artifactKey: Guid(e4325f8c8cdb1b2468cd5de3a30bd01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Backpack_Barrier_Lvl1.prefab using Guid(e4325f8c8cdb1b2468cd5de3a30bd01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13748956c00f2ff66e8209eec8361ab8') in 0.035837 seconds 
-  Import took 0.039743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidStandTurn.fbx
-  artifactKey: Guid(6fb3851da6a6f5948ab6892bee8ba920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidStandTurn.fbx using Guid(6fb3851da6a6f5948ab6892bee8ba920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3819d41258cea39cf368f073ca2e413e') in 0.012241 seconds 
-  Import took 0.015348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidJumpAndFall.fbx
-  artifactKey: Guid(51dd2e4c869794f75a0df7d54b210214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidJumpAndFall.fbx using Guid(51dd2e4c869794f75a0df7d54b210214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc3aa2865a91c968ece869bd836f919') in 0.009958 seconds 
-  Import took 0.012960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Visor_Simple_Lvl2.fbx
-  artifactKey: Guid(b2dacda8ddd23de488891f87f0cca772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Visor_Simple_Lvl2.fbx using Guid(b2dacda8ddd23de488891f87f0cca772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08f085b7212806d79e96a1c5d5f73cb') in 0.025145 seconds 
-  Import took 0.028051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Import/AutoChess/Effects/Fire arrow.prefab
-  artifactKey: Guid(47840dfac8ea9f84d838cd88e4d82929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/AutoChess/Effects/Fire arrow.prefab using Guid(47840dfac8ea9f84d838cd88e4d82929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616dccc46bdd5c232605b395242d612b') in 0.010240 seconds 
-  Import took 0.013070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Shoot.fbx
-  artifactKey: Guid(13e0f81c6aadf5e419a445b8736bec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Shoot.fbx using Guid(13e0f81c6aadf5e419a445b8736bec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936e6a44cc28b3911421eca0d2798b1d') in 0.027898 seconds 
-  Import took 0.030732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Carry_Idle.fbx
-  artifactKey: Guid(03cc9ae6748a8fc42a58cde29c7b3692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Carry_Idle.fbx using Guid(03cc9ae6748a8fc42a58cde29c7b3692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfda91b60c36f6bce3f9edd493510ff') in 0.009198 seconds 
-  Import took 0.012348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_Raygun_Lvl1.fbx
-  artifactKey: Guid(5a0fe94f47d66704983241fb522b7750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_Raygun_Lvl1.fbx using Guid(5a0fe94f47d66704983241fb522b7750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7c2272253d6db18f8786162183ebf1') in 0.021525 seconds 
-  Import took 0.024365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_Raygun_Lvl1.prefab
-  artifactKey: Guid(6f77b8ae71402254eba122e754bd3814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_Raygun_Lvl1.prefab using Guid(6f77b8ae71402254eba122e754bd3814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508691e46c0cd10edc8d119a87fb6ba4') in 0.027499 seconds 
-  Import took 0.031882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRunTurnSharp.fbx
-  artifactKey: Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRunTurnSharp.fbx using Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6142c983f9bab83593ed6abcc2815734') in 0.010469 seconds 
-  Import took 0.013704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalk.fbx
-  artifactKey: Guid(b1a5e04ae51004842aba06704a6c2903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalk.fbx using Guid(b1a5e04ae51004842aba06704a6c2903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17a40698674f5d674e054937fe6aba2') in 0.010482 seconds 
-  Import took 0.013489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Gun_Mount_1x.prefab
-  artifactKey: Guid(57bc481fd3e618d4d878f735f59f2b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Gun_Mount_1x.prefab using Guid(57bc481fd3e618d4d878f735f59f2b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41d35865192841d9cb0130ee557e020') in 0.028569 seconds 
-  Import took 0.032532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidIdle.fbx
-  artifactKey: Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidIdle.fbx using Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886a8f7ce73f4005483dd772d6787c55') in 0.009989 seconds 
-  Import took 0.012987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRun.fbx
-  artifactKey: Guid(1cb8ed3cbba15f0479fbae54e0a963df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRun.fbx using Guid(1cb8ed3cbba15f0479fbae54e0a963df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7a540fac0303b01d5ec6839187a326') in 0.009739 seconds 
-  Import took 0.012765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Visor_Lvl1.fbx
-  artifactKey: Guid(6c1c0835aa55c8746badf9c57e28d8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Visor_Lvl1.fbx using Guid(6c1c0835aa55c8746badf9c57e28d8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388bd4e78aad68419455c135e42bb898') in 0.023703 seconds 
-  Import took 0.026469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Fences.fbx
-  artifactKey: Guid(b686c773bc723dc4ba29a135ff81f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Fences.fbx using Guid(b686c773bc723dc4ba29a135ff81f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9671d81c6b74f18e09b39e241c5d4df2') in 0.049085 seconds 
-  Import took 0.052149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Drone_Worker.fbx
-  artifactKey: Guid(ee9eb19862f950b48911c50dcff19856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Drone_Worker.fbx using Guid(ee9eb19862f950b48911c50dcff19856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf8538bdc722cedbea052bf22a2a58a') in 0.020291 seconds 
-  Import took 0.023240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Bot_Round_Lvl2.prefab
-  artifactKey: Guid(7c0777526820abd489df192a707011f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Bot_Round_Lvl2.prefab using Guid(7c0777526820abd489df192a707011f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a4d29856061dd4c0f3c08ced297f3c') in 0.030115 seconds 
-  Import took 0.034170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_Mortar_Lvl3.fbx
-  artifactKey: Guid(d0005e8a669a7fd4d900359c3f372cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_Mortar_Lvl3.fbx using Guid(d0005e8a669a7fd4d900359c3f372cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29712c244458e82d53b7d720eff2c6b5') in 0.027985 seconds 
-  Import took 0.030783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidMidAir.fbx
-  artifactKey: Guid(f03e10c73f30b4ab4aa8ea8f1cc16d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidMidAir.fbx using Guid(f03e10c73f30b4ab4aa8ea8f1cc16d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043cfee22b757664b504a28dfac481cd') in 0.009600 seconds 
-  Import took 0.012578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_DoubleGun_Lvl2.fbx
-  artifactKey: Guid(c1d84b6ed09f4a748a28cc3d21a03c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_DoubleGun_Lvl2.fbx using Guid(c1d84b6ed09f4a748a28cc3d21a03c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c04fc6396c10d9c617513c63a157e55') in 0.019880 seconds 
-  Import took 0.022807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Saucer.fbx
-  artifactKey: Guid(69f680b318b64784c9d41eec513afea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Saucer.fbx using Guid(69f680b318b64784c9d41eec513afea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadc53fe8a8cf6512026d35860b6ea7f') in 0.018345 seconds 
-  Import took 0.021420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Backpack_Barrier_Lvl1.fbx
-  artifactKey: Guid(38bcf4dff80459f4b9d12c32987f36fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Backpack_Barrier_Lvl1.fbx using Guid(38bcf4dff80459f4b9d12c32987f36fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e8873a4aad8da62a7df21a2c8a2055') in 0.016962 seconds 
-  Import took 0.019968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Gun_Mount_2x.prefab
-  artifactKey: Guid(f4be1d888126b564a86c23e431a343bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Gun_Mount_2x.prefab using Guid(f4be1d888126b564a86c23e431a343bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a7207213776d364d2cec7ee904ed93') in 0.024806 seconds 
-  Import took 0.028704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_Raygun_Lvl3.fbx
-  artifactKey: Guid(b23013f1b92ffb641bcb8edd3d130607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_Raygun_Lvl3.fbx using Guid(b23013f1b92ffb641bcb8edd3d130607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb59eb170dfe4de129ebaeaa43d308a') in 0.020997 seconds 
-  Import took 0.023886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Import/SimpleSky/_Models/Cloud_06.fbx
-  artifactKey: Guid(9eee4a1abc7933341a548cf4c5fa26cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/SimpleSky/_Models/Cloud_06.fbx using Guid(9eee4a1abc7933341a548cf4c5fa26cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04871ff114fd8d0dedd16f3415cc3ee3') in 0.018375 seconds 
-  Import took 0.021396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Base_Turret_Lt_Lvl1.fbx
-  artifactKey: Guid(004aec519f0963448a7cb44f94ee83fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Base_Turret_Lt_Lvl1.fbx using Guid(004aec519f0963448a7cb44f94ee83fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24185a80f207080fc7c2cf35ad1247f5') in 0.018193 seconds 
-  Import took 0.021003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Backpack_Bracket_Lvl1.prefab
-  artifactKey: Guid(d02c5b2c1bca7fb4ea63a1a90d1b96b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Backpack_Bracket_Lvl1.prefab using Guid(d02c5b2c1bca7fb4ea63a1a90d1b96b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855475af90590f298bfd68442f7a62f9') in 0.026974 seconds 
-  Import took 0.030819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidIdleJumpUp.fbx
-  artifactKey: Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidIdleJumpUp.fbx using Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f46f80d172f789e3dafc987d1a3a40') in 0.013270 seconds 
-  Import took 0.016509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArcheryWeeble.prefab
-  artifactKey: Guid(7fe1fef3cfad86946b3a549d6934330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArcheryWeeble.prefab using Guid(7fe1fef3cfad86946b3a549d6934330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea9871f4c1dc1ea1196d683a0049d23') in 0.132837 seconds 
-  Import took 0.136377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalkTurn.fbx
-  artifactKey: Guid(1c52c953c83c2254a9fa72d50250f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalkTurn.fbx using Guid(1c52c953c83c2254a9fa72d50250f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1a21c74913067af9d40929524c5e78') in 0.012412 seconds 
-  Import took 0.015676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Shoulders/HalfShoulder_Visor_Lvl2.prefab
-  artifactKey: Guid(3c2f9ed5b6b648940aa22d05c0cb8b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Shoulders/HalfShoulder_Visor_Lvl2.prefab using Guid(3c2f9ed5b6b648940aa22d05c0cb8b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804ece699124ffca7aa281ffc7d481d2') in 0.031165 seconds 
-  Import took 0.035167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Shoulders/HalfShoulder_Plates.prefab
-  artifactKey: Guid(0cd2de37fdb317b49a7737b45480e70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Shoulders/HalfShoulder_Plates.prefab using Guid(0cd2de37fdb317b49a7737b45480e70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9370da50b21815ab3e8c91466426500') in 0.031507 seconds 
-  Import took 0.035867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Pack.fbx
-  artifactKey: Guid(cfbc3e99ee765e442b51efde652ca7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Pack.fbx using Guid(cfbc3e99ee765e442b51efde652ca7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c0ebfa234fd901545aaf7cabc37165') in 0.021471 seconds 
-  Import took 0.024382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Bot_Round_Simple_Lvl1.prefab
-  artifactKey: Guid(a5e0d825a8f1d6547ac9572a0765b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Bot_Round_Simple_Lvl1.prefab using Guid(a5e0d825a8f1d6547ac9572a0765b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d153cd7abfd2a004ac50e1b207db378') in 0.031846 seconds 
-  Import took 0.036104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Bot_Round_Lvl1.fbx
-  artifactKey: Guid(94e32a76c5a9c9544b1a933381b31a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Bot_Round_Lvl1.fbx using Guid(94e32a76c5a9c9544b1a933381b31a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e422f6ea8e880e0c5cc699de3a9536e3') in 0.082069 seconds 
-  Import took 0.087484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Cockpit_Weapon_DoubleGun@Cockpit_Weapon_DoubleGun_Recoil.fbx
-  artifactKey: Guid(70129858785a574469d5aa158faa7e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Cockpit_Weapon_DoubleGun@Cockpit_Weapon_DoubleGun_Recoil.fbx using Guid(70129858785a574469d5aa158faa7e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847d24f92c59c09ba3de170c62c931a6') in 0.022647 seconds 
-  Import took 0.025743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Carry_Move.fbx
-  artifactKey: Guid(1decb8db9c5aca142b42e9b635e2a24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Carry_Move.fbx using Guid(1decb8db9c5aca142b42e9b635e2a24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778a10495b9eb344b64ac5003af4e828') in 0.009807 seconds 
-  Import took 0.012727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Backpack_Ammo_Mount.prefab
-  artifactKey: Guid(5d204acce0fe5fc408fc773aa0f567ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Backpack_Ammo_Mount.prefab using Guid(5d204acce0fe5fc408fc773aa0f567ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc1ac2dff626319cbd701dcfebcb4e1') in 0.026716 seconds 
-  Import took 0.030643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Shoulders/HalfShoulder_Visor_Lvl1.prefab
-  artifactKey: Guid(ceec4d4338c76e24f8fe218c15082a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Shoulders/HalfShoulder_Visor_Lvl1.prefab using Guid(ceec4d4338c76e24f8fe218c15082a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0576645f58d9ee2c488ea9ca5435f4') in 0.031528 seconds 
-  Import took 0.036191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Shoulders/HalfShoulder_Saucer.prefab
-  artifactKey: Guid(37ee0316e1f37064abc28564c397c81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Shoulders/HalfShoulder_Saucer.prefab using Guid(37ee0316e1f37064abc28564c397c81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562ef772837963c10f2691cb0953308b') in 0.025754 seconds 
-  Import took 0.029694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Visor_Simple_Lvl3.fbx
-  artifactKey: Guid(edce534feba26564a9126061e25c0d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Visor_Simple_Lvl3.fbx using Guid(edce534feba26564a9126061e25c0d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb80db35dff7d7d9c95ee4fdc64d84c') in 0.020274 seconds 
-  Import took 0.023139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/Arrow.prefab
-  artifactKey: Guid(81fc1450441aca64e8cc1a0e14b1aa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/Arrow.prefab using Guid(81fc1450441aca64e8cc1a0e14b1aa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97732b260d85b535b03f0282bb0d787d') in 0.183560 seconds 
-  Import took 0.186941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Unpack.fbx
-  artifactKey: Guid(85c77a2adb56cd147bec352b1e16cda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Unpack.fbx using Guid(85c77a2adb56cd147bec352b1e16cda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97130473347a48aa7aa4f77eb1512800') in 0.018234 seconds 
-  Import took 0.021066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Antenna_Long.prefab
-  artifactKey: Guid(4e052e187e81c7a4ea40387b7aedbfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Antenna_Long.prefab using Guid(4e052e187e81c7a4ea40387b7aedbfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e512bb23d121fab161b898b3b5998f5d') in 0.030394 seconds 
-  Import took 0.034347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Gun_Mount_1x.fbx
-  artifactKey: Guid(c9485c39e37f1d742866a084d8ebc3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Gun_Mount_1x.fbx using Guid(c9485c39e37f1d742866a084d8ebc3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f53d15dba2004d5dc9563bd5399a0d4') in 0.019392 seconds 
-  Import took 0.022293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_Raygun_Lvl2.fbx
-  artifactKey: Guid(108ec6293807686419cea43a8b5b3a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_Raygun_Lvl2.fbx using Guid(108ec6293807686419cea43a8b5b3a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b5a6ca5eed53a488862328d129562a') in 0.024465 seconds 
-  Import took 0.027231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalkTurnSharp.fbx
-  artifactKey: Guid(bb141fc9a700c9c4ca7e6dadb8acf24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalkTurnSharp.fbx using Guid(bb141fc9a700c9c4ca7e6dadb8acf24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93d1f6803f30a32b779024f5cf6b772') in 0.011661 seconds 
-  Import took 0.015095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Plates.fbx
-  artifactKey: Guid(862f68d0e78c1e14898d5049c29883af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Plates.fbx using Guid(862f68d0e78c1e14898d5049c29883af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6513c2251f4c3cbccf9f19ea146b0fcf') in 0.017382 seconds 
-  Import took 0.020168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Bot_Round_Lvl1.prefab
-  artifactKey: Guid(e8cc72a328d6e7843bfe8c8ab426e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Bot_Round_Lvl1.prefab using Guid(e8cc72a328d6e7843bfe8c8ab426e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed094ded4eb4ccd612a25def2cd7d0b') in 0.024673 seconds 
-  Import took 0.028478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_Mortar_Lvl3.prefab
-  artifactKey: Guid(b3dc3c20d3ceca94aa71d2c30d787e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_Mortar_Lvl3.prefab using Guid(b3dc3c20d3ceca94aa71d2c30d787e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c46285b34c44a56e64715804e2aeb8') in 0.027273 seconds 
-  Import took 0.031654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Die.fbx
-  artifactKey: Guid(0033654adb22c7f4db3b931143dbe26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Die.fbx using Guid(0033654adb22c7f4db3b931143dbe26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b862ec0e41a4cca0eccd8edf366ae9') in 0.019413 seconds 
-  Import took 0.022416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Backpack_Barrier_Lvl2.prefab
-  artifactKey: Guid(3cf8cce757743d14bb7b0d1111ba3c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Backpack_Barrier_Lvl2.prefab using Guid(3cf8cce757743d14bb7b0d1111ba3c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3faec415dcb057d98c349b79ae0aa50') in 0.025612 seconds 
-  Import took 0.029482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRunTurn.fbx
-  artifactKey: Guid(1062212255550964e974f3ffb3cbaae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRunTurn.fbx using Guid(1062212255550964e974f3ffb3cbaae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5245aad61473f05efa8ff97170a810a5') in 0.010903 seconds 
-  Import took 0.014185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Import/AutoChess/Effects/Heal Effect.prefab
-  artifactKey: Guid(50be24449be05a14a83ac83bd78be2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/AutoChess/Effects/Heal Effect.prefab using Guid(50be24449be05a14a83ac83bd78be2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2359929ee582c150ee28bf5f6a6baed9') in 0.038761 seconds 
-  Import took 0.041792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulders_Armor_Ammo.fbx
-  artifactKey: Guid(b2b0710d285ff484cb7471519a919d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulders_Armor_Ammo.fbx using Guid(b2b0710d285ff484cb7471519a919d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289ebbf5f21996b13a894a29259d55cd') in 0.031815 seconds 
-  Import took 0.035057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Import/SimpleSky/_Models/Cloud_05.fbx
-  artifactKey: Guid(5d92abef242cfcc4781ac2ae661d8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/SimpleSky/_Models/Cloud_05.fbx using Guid(5d92abef242cfcc4781ac2ae661d8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6504b333f36b3bcb51970f46b7d4b6') in 0.017122 seconds 
-  Import took 0.019890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Bot_Round_Lvl2.fbx
-  artifactKey: Guid(f1a02ce8b517b26499e2e2c31075c9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Bot_Round_Lvl2.fbx using Guid(f1a02ce8b517b26499e2e2c31075c9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91109e131085fb31881748145bdf915d') in 0.022684 seconds 
-  Import took 0.025436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Visor_Lvl2.fbx
-  artifactKey: Guid(2d2fd2553ec013240a1c8fc1cb8ee5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulder_Visor_Lvl2.fbx using Guid(2d2fd2553ec013240a1c8fc1cb8ee5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f998f8b9fe1938b725a8107d858dd0f6') in 0.021228 seconds 
-  Import took 0.024039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulders_Armor.fbx
-  artifactKey: Guid(d7423833fbff3814b8d84b0507358bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/HalfShoulders_Armor.fbx using Guid(d7423833fbff3814b8d84b0507358bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984bd278edda1650191119301ba94616') in 0.032558 seconds 
-  Import took 0.035420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Models/Arrow.fbx
-  artifactKey: Guid(56377e28a47008245871ca7b435044c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Models/Arrow.fbx using Guid(56377e28a47008245871ca7b435044c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaf6fb96d409fb7da7f8642bd7011c9') in 0.020590 seconds 
-  Import took 0.023348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Antenna_Short.prefab
-  artifactKey: Guid(ca8253932e0b73f4fab23a896f8fdc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Backpacks/Antenna_Short.prefab using Guid(ca8253932e0b73f4fab23a896f8fdc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82a9602b9eb44d1d6fc8525b807fb8a') in 0.025611 seconds 
-  Import took 0.029614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_Raygun_Lvl3.prefab
-  artifactKey: Guid(a3473ccd24b8cc546a169b7c26b91767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_Raygun_Lvl3.prefab using Guid(a3473ccd24b8cc546a169b7c26b91767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2717440971f6800d0cb8cb4fed7a6a37') in 0.025361 seconds 
-  Import took 0.029396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Base_Towers.fbx
-  artifactKey: Guid(4dfd03327ba9e104cb97af510d8742b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Base_Towers.fbx using Guid(4dfd03327ba9e104cb97af510d8742b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f96616ab8ff3238056039d3a99f90da') in 0.042333 seconds 
-  Import took 0.045116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_DoubleGun_Lvl1.fbx
-  artifactKey: Guid(788d016bb35acde4eb9e69d11da7de63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Cockpit_Weapon_DoubleGun_Lvl1.fbx using Guid(788d016bb35acde4eb9e69d11da7de63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f490e5af48a1c8a982437e5759c0eedf') in 0.020145 seconds 
-  Import took 0.022864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArrowHand.prefab
-  artifactKey: Guid(d410d7126dd411c4ea651fc94eae9202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArrowHand.prefab using Guid(d410d7126dd411c4ea651fc94eae9202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4c0a3481b41f076b169075914402d4') in 0.228554 seconds 
-  Import took 0.232778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/HalfShoulder_Visor@HalfShoulder_Visor_Open.fbx
-  artifactKey: Guid(e1e1ac7d3ca1abd49a98ffe920c21d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/HalfShoulder_Visor@HalfShoulder_Visor_Open.fbx using Guid(e1e1ac7d3ca1abd49a98ffe920c21d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f57406998250fecb2e9ce925048c85') in 0.017670 seconds 
-  Import took 0.020522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_Raygun_Lvl2.prefab
-  artifactKey: Guid(7b0b9cbe38c71504486a0e55d0214687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_Raygun_Lvl2.prefab using Guid(7b0b9cbe38c71504486a0e55d0214687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c77031241ff1b2f55557dc003ae31bb') in 0.027542 seconds 
-  Import took 0.031406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_DoubleGun_Lvl1.prefab
-  artifactKey: Guid(ea40dc474268951418d739fe5430e8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs/Cockpits/Cockpit_Weapon_DoubleGun_Lvl1.prefab using Guid(ea40dc474268951418d739fe5430e8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0da6868c98f3efd189cc307fb5be22') in 0.025322 seconds 
-  Import took 0.029468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Move.fbx
-  artifactKey: Guid(22b0015bd13f84642a2c175e862c8309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Move.fbx using Guid(22b0015bd13f84642a2c175e862c8309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cec24b1dc2048a23b3379617e06d2a') in 0.020247 seconds 
-  Import took 0.023446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Models/Base_Turret_Lt_Lvl2.fbx
-  artifactKey: Guid(8645fdaf3a8ec274faf7d1128fd06241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Models/Base_Turret_Lt_Lvl2.fbx using Guid(8645fdaf3a8ec274faf7d1128fd06241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e919a9c8f5858d419bd1c6e332917405') in 0.019219 seconds 
-  Import took 0.079983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.fbx
-  artifactKey: Guid(076d897164a32834791fe9bd812ed21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.fbx using Guid(076d897164a32834791fe9bd812ed21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b914fc81dfb6bf0f84b32ebf039151f2') in 0.026482 seconds 
-  Import took 0.029311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Import/AutoChess/Effects/Frost Projectile.prefab
-  artifactKey: Guid(e94f8a8182f6ca34bbea07f54c94b04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/AutoChess/Effects/Frost Projectile.prefab using Guid(e94f8a8182f6ca34bbea07f54c94b04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f11bbda91c79ea516e34a090789cd47') in 0.011434 seconds 
-  Import took 0.014781 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005731 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
-Domain Reload Profiling:
-	ReloadAssembly (734ms)
-		BeginReloadAssembly (88ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (599ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (222ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (213ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.10 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2532.
-Total: 3.655800 ms (FindLiveObjects: 0.200900 ms CreateObjectMapping: 0.068000 ms MarkObjects: 3.325300 ms  DeleteObjects: 0.059500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005335 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.739 seconds
-Domain Reload Profiling:
-	ReloadAssembly (739ms)
-		BeginReloadAssembly (84ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (611ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
+			RebuildScriptCaches (29ms)
 			SetupLoadedEditorAssemblies (216ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
@@ -1449,16 +297,16 @@ Domain Reload Profiling:
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.48 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.4 MB.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2535.
-Total: 3.211500 ms (FindLiveObjects: 0.152100 ms CreateObjectMapping: 0.035400 ms MarkObjects: 3.002400 ms  DeleteObjects: 0.020500 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2497.
+Total: 3.264200 ms (FindLiveObjects: 0.218900 ms CreateObjectMapping: 0.138300 ms MarkObjects: 2.881100 ms  DeleteObjects: 0.024500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1471,59 +319,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 118.672674 seconds.
-  path: Assets/Scenes/Game 1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a33338a70fdb6412114b05abcf9152e') in 0.026085 seconds 
-  Import took 0.029032 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005427 seconds.
+Registered in 0.005379 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.752 seconds
+- Completed reload, in  0.753 seconds
 Domain Reload Profiling:
-	ReloadAssembly (752ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (753ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (626ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
+			SetupTypeCache (205ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (227ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (222ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadAttributes (147ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.4 MB.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2538.
-Total: 2.775800 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.040700 ms MarkObjects: 2.554200 ms  DeleteObjects: 0.022800 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2500.
+Total: 2.940400 ms (FindLiveObjects: 0.254100 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.579900 ms  DeleteObjects: 0.024100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1536,379 +376,459 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 567.546405 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations
-  artifactKey: Guid(065efca1dc42d864183911894a946912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations using Guid(065efca1dc42d864183911894a946912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d1d617c14f397fdf7dfcda890cb70d') in 0.010708 seconds 
-  Import took 0.014312 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (702ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (569ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2503.
+Total: 2.452500 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.033500 ms MarkObjects: 2.240100 ms  DeleteObjects: 0.019700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.150403 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Cockpit_Weapon_Mortar@Cockpit_Weapon_Mortar_Recoil.fbx
-  artifactKey: Guid(8338af4f3d5323040b74416289019265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Cockpit_Weapon_Mortar@Cockpit_Weapon_Mortar_Recoil.fbx using Guid(8338af4f3d5323040b74416289019265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0beb98e0880b49aea3b56cf51f5c1474') in 0.075874 seconds 
-  Import took 0.078619 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (637ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2506.
+Total: 2.682500 ms (FindLiveObjects: 0.149200 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.449200 ms  DeleteObjects: 0.023700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Hit.fbx
-  artifactKey: Guid(7dba1b1c502636542b6e372e03f36e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Hit.fbx using Guid(7dba1b1c502636542b6e372e03f36e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622bcafe271d0b6efa07b231ba27f1c7') in 0.019359 seconds 
-  Import took 0.022036 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2509.
+Total: 2.961100 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.057700 ms MarkObjects: 2.659400 ms  DeleteObjects: 0.031000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Weapon_Bazooka@Weapon_Bazooka_Open.fbx
-  artifactKey: Guid(c721e8f306a1ac54b97101f816c8dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Weapon_Bazooka@Weapon_Bazooka_Open.fbx using Guid(c721e8f306a1ac54b97101f816c8dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d27dd9ac3e12fc56a99c71f204d838') in 0.021246 seconds 
-  Import took 0.024001 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 2.484200 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.033700 ms MarkObjects: 2.275500 ms  DeleteObjects: 0.021600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Move.fbx
-  artifactKey: Guid(e9ff8ca11f17e0c4fb298b4b25e93971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Move.fbx using Guid(e9ff8ca11f17e0c4fb298b4b25e93971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3198ab5915b22d80ef6725330ad8ee8') in 0.022184 seconds 
-  Import took 0.024973 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Domain Reload Profiling:
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2515.
+Total: 2.833000 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.051100 ms MarkObjects: 2.606100 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Repair.fbx
-  artifactKey: Guid(2a2184d54861d7040ad6e71da4bc13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Repair.fbx using Guid(2a2184d54861d7040ad6e71da4bc13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a859ea5d529acaafe77d996c26f44db4') in 0.017612 seconds 
-  Import took 0.020311 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005368 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Domain Reload Profiling:
+	ReloadAssembly (767ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 2.520300 ms (FindLiveObjects: 0.126700 ms CreateObjectMapping: 0.037700 ms MarkObjects: 2.333700 ms  DeleteObjects: 0.021000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Weapon_Bazooka_Simple@Weapon_Bazooka_Simple_Recoil.fbx
-  artifactKey: Guid(0cd3b3b9a7a076741afb52dd6cf91c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Weapon_Bazooka_Simple@Weapon_Bazooka_Simple_Recoil.fbx using Guid(0cd3b3b9a7a076741afb52dd6cf91c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a00d5f05831600bee98e00bf0de30c2') in 0.021153 seconds 
-  Import took 0.023876 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (725ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2521.
+Total: 3.059700 ms (FindLiveObjects: 0.162700 ms CreateObjectMapping: 0.069000 ms MarkObjects: 2.800700 ms  DeleteObjects: 0.025800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Punch.fbx
-  artifactKey: Guid(f66ee4c75cd22d549b84db0bfbf5b072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Punch.fbx using Guid(f66ee4c75cd22d549b84db0bfbf5b072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23e08dd0f31b174a587a767f45a7605') in 0.020979 seconds 
-  Import took 0.023747 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005418 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Domain Reload Profiling:
+	ReloadAssembly (705ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (580ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Die.fbx
-  artifactKey: Guid(6267a6fc02e4f6d46ad5ea78b0b943d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Die.fbx using Guid(6267a6fc02e4f6d46ad5ea78b0b943d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49def7af3ce1cece946633e6f3ed330') in 0.018795 seconds 
-  Import took 0.021546 seconds .
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2524.
+Total: 3.221500 ms (FindLiveObjects: 0.189000 ms CreateObjectMapping: 0.046100 ms MarkObjects: 2.958700 ms  DeleteObjects: 0.026100 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Hit.fbx
-  artifactKey: Guid(e0c4f6dfbde15f84eb682d566432322b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Hit.fbx using Guid(e0c4f6dfbde15f84eb682d566432322b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1d9444f12dcca79ab9080cca38e06b') in 0.019350 seconds 
-  Import took 0.022140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Idle.fbx
-  artifactKey: Guid(90fed008217a9634c96a303f731a7571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Idle.fbx using Guid(90fed008217a9634c96a303f731a7571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4424956648c9f212accd45ce275c7ae7') in 0.018675 seconds 
-  Import took 0.021423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Pick_Up.fbx
-  artifactKey: Guid(716b10f9841984d419195b15f8d4bd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Pick_Up.fbx using Guid(716b10f9841984d419195b15f8d4bd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d661623fd4824a214fe2722e07528c8') in 0.008510 seconds 
-  Import took 0.011268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Unpack.fbx
-  artifactKey: Guid(4eb90dbe867adf84a91cb7481501bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Unpack.fbx using Guid(4eb90dbe867adf84a91cb7481501bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e5036ffb5325b7bd29f30e687c59ca') in 0.017986 seconds 
-  Import took 0.020683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Idle.fbx
-  artifactKey: Guid(40faca138f78eb54da8c1281eb7d4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Fighter@Drone_Fighter_Idle.fbx using Guid(40faca138f78eb54da8c1281eb7d4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59865cf348c08c553e10b42df461f4e0') in 0.019930 seconds 
-  Import took 0.022784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Pack.fbx
-  artifactKey: Guid(5d8b13605b6eb8047b2a88bc58c30101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Animations/Drone_Worker@Drone_Worker_Pack.fbx using Guid(5d8b13605b6eb8047b2a88bc58c30101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf07eb87c6236b46a5636e783352985') in 0.019216 seconds 
-  Import took 0.022165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.150830 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials
-  artifactKey: Guid(59695dbea4e0f0b4581934e108045f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials using Guid(59695dbea4e0f0b4581934e108045f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6c35fde738641447dba9a03bf3d622') in 0.005019 seconds 
-  Import took 0.007774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058626 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/A_Ground_Mat.mat
-  artifactKey: Guid(e29b61f44cd7882408432ba353cea0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/A_Ground_Mat.mat using Guid(e29b61f44cd7882408432ba353cea0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a820930f12ca96f5f72dfd89958736ef') in 0.021960 seconds 
-  Import took 0.024712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Color_ID.png
-  artifactKey: Guid(1002a264857919a4797e12c929b593d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Color_ID.png using Guid(1002a264857919a4797e12c929b593d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37edb40e2a44adbca56865783e489320') in 0.029496 seconds 
-  Import took 0.032136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Red.png
-  artifactKey: Guid(60c764d3432e479419fdb8dbdb344b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Red.png using Guid(60c764d3432e479419fdb8dbdb344b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b147226884801f364a6ac545b7f6c4') in 0.018431 seconds 
-  Import took 0.021137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Black.png
-  artifactKey: Guid(6f4f6f16424a54e4ebbdb6f82971ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Black.png using Guid(6f4f6f16424a54e4ebbdb6f82971ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfe5f69f58775c0a0e29a233a076220') in 0.019129 seconds 
-  Import took 0.021822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/A_Turrets_Mat.mat
-  artifactKey: Guid(56e71d6bfe33ae3449cbd79043fbead7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/A_Turrets_Mat.mat using Guid(56e71d6bfe33ae3449cbd79043fbead7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d38ac8a7ee1f1dbd0e07761a1503ef9') in 0.026648 seconds 
-  Import took 0.030362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Emission.png
-  artifactKey: Guid(904cf51d3b3489d4b83862dc6945f5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Emission.png using Guid(904cf51d3b3489d4b83862dc6945f5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd3bf3421b8f75efbe544908133798e') in 0.012328 seconds 
-  Import took 0.015107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Yellow.png
-  artifactKey: Guid(801e934248dec8b4eb031179be0dd2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Yellow.png using Guid(801e934248dec8b4eb031179be0dd2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5946d843dc4d34eee938a5b8205aafb2') in 0.018846 seconds 
-  Import took 0.021644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Grayscale.png
-  artifactKey: Guid(85475ff41c7b50144bc2ebbfb1d95ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Grayscale.png using Guid(85475ff41c7b50144bc2ebbfb1d95ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f47a716a4f6af240c36524b14c6803') in 0.019949 seconds 
-  Import took 0.022684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Rusty.png
-  artifactKey: Guid(4b3eb5ebe7323954c95a37e7393c2437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Rusty.png using Guid(4b3eb5ebe7323954c95a37e7393c2437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fec3df2200682627d555fda1e79af16') in 0.018565 seconds 
-  Import took 0.021338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_White.png
-  artifactKey: Guid(4508502c84eba9a4e87e4b8450694b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_White.png using Guid(4508502c84eba9a4e87e4b8450694b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9237a961547b61fb89a2142ed80e17') in 0.014342 seconds 
-  Import took 0.017096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/X_Turrets_Source_PSD.psd
-  artifactKey: Guid(9156aeea639819d4394f7cad7b0b7056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/X_Turrets_Source_PSD.psd using Guid(9156aeea639819d4394f7cad7b0b7056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba279ab2ee240fdc1cffaf0ef774b57b') in 0.015704 seconds 
-  Import took 0.018630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Blue.png
-  artifactKey: Guid(9d61e4281cd1fa54ca32e19c7e8d174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Blue.png using Guid(9d61e4281cd1fa54ca32e19c7e8d174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1742874ae50dbcf46397e60df10dd5') in 0.021039 seconds 
-  Import took 0.023680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Normal.png
-  artifactKey: Guid(0d89649006961754791141d62b45d0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Normal.png using Guid(0d89649006961754791141d62b45d0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52f7491ccb1eb403d098c2dee1db524') in 0.023471 seconds 
-  Import took 0.027266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Green.png
-  artifactKey: Guid(555e79323c7e3624c863f2331801390c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/Turrets_Diffuse_Green.png using Guid(555e79323c7e3624c863f2331801390c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04929b0fc76187f6eb58acefd451a6c') in 0.019357 seconds 
-  Import took 0.022115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.867244 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat
-  artifactKey: Guid(5106522665e339b46a62fac17f21daa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat using Guid(5106522665e339b46a62fac17f21daa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b34c04ba50cf15f4e8df6619864e10') in 0.005083 seconds 
-  Import took 0.007779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.354537 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Turrets_AO.png
-  artifactKey: Guid(f449791720a36e142b9942b15f10d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Turrets_AO.png using Guid(f449791720a36e142b9942b15f10d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62f21b6a08c04f2f25852e28eb5c5a9') in 0.014854 seconds 
-  Import took 0.017569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Turrets_Gloss.png
-  artifactKey: Guid(146eb3eb1b17ac34f976830a53e933e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Turrets_Gloss.png using Guid(146eb3eb1b17ac34f976830a53e933e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3df31d6c27adb4f6282d04f142c4e0') in 0.013279 seconds 
-  Import took 0.015959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Turrets_Curvature.png
-  artifactKey: Guid(3f1faf0d524f33444915e63bf72b605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Turrets_Curvature.png using Guid(3f1faf0d524f33444915e63bf72b605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168deb30a78f20bb65f6009f9276ac9a') in 0.014010 seconds 
-  Import took 0.016786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Turrets_Specular.png
-  artifactKey: Guid(22c0a50f5c12d64419a328b278259726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Turrets_Specular.png using Guid(22c0a50f5c12d64419a328b278259726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ed7042aa392f8e5fe7b3767ceea2c0') in 0.016010 seconds 
-  Import took 0.019064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.136187 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)
-  artifactKey: Guid(ef3d5239d454af44eb0e4dc4b95be195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular) using Guid(ef3d5239d454af44eb0e4dc4b95be195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6391fe247b6162f439bca98b777ce273') in 0.005270 seconds 
-  Import took 0.007943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.160766 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_Black.png
-  artifactKey: Guid(f73aaad17ce0dbc4f881a7d8b2f77b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_Black.png using Guid(f73aaad17ce0dbc4f881a7d8b2f77b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b3caa37c06308e8123085fd7d989d2') in 0.019188 seconds 
-  Import took 0.021909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_Yellow.png
-  artifactKey: Guid(df763eeca16bbce419e93bf5fce882c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_Yellow.png using Guid(df763eeca16bbce419e93bf5fce882c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a141e37f65208ad6ca4bb8852e43a4') in 0.018138 seconds 
-  Import took 0.020861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_specular_Unity_5.png
-  artifactKey: Guid(98781dcf8b421b74f804f4b714927233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_specular_Unity_5.png using Guid(98781dcf8b421b74f804f4b714927233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238ef31e36c6f1330a4ebf4d10e07850') in 0.028857 seconds 
-  Import took 0.032523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_Red.png
-  artifactKey: Guid(01a1fa25227189d4aa1946736e22b043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_Red.png using Guid(01a1fa25227189d4aa1946736e22b043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4129417775f838719f7cafe9e915d7b1') in 0.018248 seconds 
-  Import took 0.020993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_White.png
-  artifactKey: Guid(797a647bea6e83044998d6bd57ac3ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_White.png using Guid(797a647bea6e83044998d6bd57ac3ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbf9e9e2a0b5a9825b6b902302e238b') in 0.019149 seconds 
-  Import took 0.021856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_normal_PBR.png
-  artifactKey: Guid(9082faad3f037e743bf06e2ff098b717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_normal_PBR.png using Guid(9082faad3f037e743bf06e2ff098b717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c42cd9809654931006b0e44876e97e2') in 0.018357 seconds 
-  Import took 0.021009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_Green.png
-  artifactKey: Guid(cdf5564d88f427943a4ae3cbfa6cc678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_Green.png using Guid(cdf5564d88f427943a4ae3cbfa6cc678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47139f54701137ad24c17938f512613a') in 0.018924 seconds 
-  Import took 0.021602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_Blue.png
-  artifactKey: Guid(30a7ac22187aca24c803ec675561ce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_albedo_Blue.png using Guid(30a7ac22187aca24c803ec675561ce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604ec11d1035e2385259dc759d74ce3d') in 0.019060 seconds 
-  Import took 0.021759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_Emission.png
-  artifactKey: Guid(a5ba25918409ecb41bfbf9935960b9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Materials/PBR_Flat/Unity_5_Standard_Shader_(Specular)/Turrets_Emission.png using Guid(a5ba25918409ecb41bfbf9935960b9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8f05f99bc8df76a7dea59cc37e1476') in 0.017521 seconds 
-  Import took 0.020295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.029617 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Readme.txt
-  artifactKey: Guid(e5df953ffcb9f8948a9a54f5fb37e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Readme.txt using Guid(e5df953ffcb9f8948a9a54f5fb37e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a1f6862266b6acc6186cfef61866de') in 0.008831 seconds 
-  Import took 0.011702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.366095 seconds.
-  path: Assets/Import/Mech_Constructor_Turrets/Prefabs
-  artifactKey: Guid(ebce4c25cb1d7e64c955ee972029d396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Mech_Constructor_Turrets/Prefabs using Guid(ebce4c25cb1d7e64c955ee972029d396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39d343ad27e5bf49102e65036838275') in 0.005671 seconds 
-  Import took 0.008452 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

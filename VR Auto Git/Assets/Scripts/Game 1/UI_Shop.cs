@@ -4,42 +4,67 @@ using UnityEngine;
 
 public class UI_Shop : MonoBehaviour
 {
+    public ChampionSpawn ChampionSpawn;
     public Manager_Shop managerShop;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public PlayerStat playerStat;
 
     public void Shop_Click_Slot0()
     {
-        managerShop.UI_Shop[0].SetActive(false);
+        ShopInteract(0);
     }
 
     public void Shop_Click_Slot1()
     {
-        managerShop.UI_Shop[1].SetActive(false);
+        ShopInteract(1);
     }
 
     public void Shop_Click_Slot2()
     {
-        managerShop.UI_Shop[2].SetActive(false);
+        ShopInteract(2);
     }
 
     public void Shop_Click_Slot3()
     {
-        managerShop.UI_Shop[3].SetActive(false);
+        ShopInteract(3);
     }
 
     public void Shop_Click_Slot4()
     {
-        managerShop.UI_Shop[4].SetActive(false);
+        ShopInteract(4);
+    }
+
+    public void Refresh_Click()
+    {
+        managerShop.ShopRandom();
+
+        for(int i = 0; i <= 4; i++)
+        {
+            managerShop.UI_Shop[i].SetActive(true);
+        }
+    }
+
+    public void ShopInteract(int a)
+    {
+        int x = 0;
+        for(int i = 0; i < 9; i++)
+        {
+            if(ChampionSpawn.ChampionArray[i] != null)
+            {
+                x++;
+            }
+        }
+        
+        if (x >= 9)
+        {
+            Debug.Log("못사임마");
+        }
+        else
+        {
+            PlayerStat.Gold -= managerShop.Gold_OnShop[a];
+            managerShop.UI_Shop[a].SetActive(false);
+            ChampionSpawn.championSpawn(a);
+        }
+
     }
 
 }
