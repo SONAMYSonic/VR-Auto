@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 373951014299464953}
   - component: {fileID: 373951014289644317}
+  - component: {fileID: 6740074417184919096}
   m_Layer: 0
   m_Name: 0 Turret LV1
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373951014299035865}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 373951014299464959}
@@ -52,6 +53,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &6740074417184919096
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373951014299035865}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.94548136
+  m_Height: 3.8585067
+  m_Direction: 1
+  m_Center: {x: -0.09744905, y: 1.8840134, z: -0.1252915}
 --- !u!1 &373951014299035869
 GameObject:
   m_ObjectHideFlags: 0

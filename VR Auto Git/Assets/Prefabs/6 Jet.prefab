@@ -1062,6 +1062,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4155046195482119553}
+  - component: {fileID: 8623058963246609803}
   m_Layer: 0
   m_Name: 6 Jet
   m_TagString: Untagged
@@ -1096,3 +1097,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &8623058963246609803
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4155046195482119558}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.716999, y: 1.3314699, z: 4.777249}
+  m_Center: {x: -0.009943247, y: -0.4176485, z: 0.1691027}

@@ -35,12 +35,29 @@ public class UI_Shop : MonoBehaviour
 
     public void Refresh_Click()
     {
-        managerShop.ShopRandom();
-
-        for(int i = 0; i <= 4; i++)
+        if(playerStat.Gold >= 2)
         {
-            managerShop.UI_Shop[i].SetActive(true);
+            managerShop.ShopRandom();
+            playerStat.Gold -= 2;
+
+            for (int i = 0; i <= 4; i++)
+            {
+                managerShop.UI_Shop[i].SetActive(true);
+            }
         }
+        
+
+
+    }
+
+    public void levelUP_Click()
+    {
+        if(playerStat.Gold >= 4)
+        {
+            playerStat.canOnfield += 1;
+            playerStat.Gold -= 4;
+        }
+
     }
 
     public void ShopInteract(int a)
@@ -54,13 +71,13 @@ public class UI_Shop : MonoBehaviour
             }
         }
         
-        if (x >= 9)
+        if (x >= 9 || managerShop.Gold_OnShop[a] > playerStat.Gold)
         {
             Debug.Log("못사임마");
         }
         else
         {
-            PlayerStat.Gold -= managerShop.Gold_OnShop[a];
+            playerStat.Gold -= managerShop.Gold_OnShop[a];
             managerShop.UI_Shop[a].SetActive(false);
             ChampionSpawn.championSpawn(a);
         }

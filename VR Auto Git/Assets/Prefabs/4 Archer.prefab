@@ -6273,6 +6273,7 @@ GameObject:
   - component: {fileID: 5904177654570877736}
   - component: {fileID: 4544310325879595937}
   - component: {fileID: 3858433098675416327}
+  - component: {fileID: 6643546930266736526}
   m_Layer: 0
   m_Name: 4 Archer
   m_TagString: Untagged
@@ -6354,6 +6355,20 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!136 &6643546930266736526
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5904177654570877743}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.3220126
+  m_Height: 1.9311522
+  m_Direction: 1
+  m_Center: {x: 0.007910579, y: 0.9639395, z: 0.019776374}
 --- !u!1 &5985034172653170801
 GameObject:
   m_ObjectHideFlags: 0
