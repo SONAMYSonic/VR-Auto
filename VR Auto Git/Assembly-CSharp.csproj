@@ -76,6 +76,7 @@
     <Compile Include="Assets\Import\AutoChess\Scripts\InputController.cs" />
     <Compile Include="Assets\Scripts\Game 1\Billboard.cs" />
     <Compile Include="Assets\Import\AutoChess\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Game 1\UnitInteract.cs" />
     <Compile Include="Assets\Import\AutoChess\Scripts\UI\UIController.cs" />
     <Compile Include="Assets\Import\AutoChess\Scripts\AIopponent.cs" />
     <Compile Include="Assets\Import\AutoChess\Scripts\ChampionController.cs" />

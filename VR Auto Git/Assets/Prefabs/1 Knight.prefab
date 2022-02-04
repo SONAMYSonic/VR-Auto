@@ -8372,7 +8372,7 @@ GameObject:
   - component: {fileID: 8630654999615776708}
   - component: {fileID: -4114212097864218143}
   - component: {fileID: -5492506548520598951}
-  - component: {fileID: 4017796688949231689}
+  - component: {fileID: 5848065464710752847}
   m_Layer: 0
   m_Name: 1 Knight
   m_TagString: Untagged
@@ -8454,8 +8454,8 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!136 &4017796688949231689
-CapsuleCollider:
+--- !u!65 &5848065464710752847
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8464,10 +8464,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.38956675
-  m_Height: 1.9521768
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.98051244, z: 0.11043321}
+  serializedVersion: 2
+  m_Size: {x: 0.6047009, y: 1.874455, z: 0.5647716}
+  m_Center: {x: -0.0059896335, y: 0.9403367, z: 0.12977116}
 --- !u!1 &8760002499760583925
 GameObject:
   m_ObjectHideFlags: 0
