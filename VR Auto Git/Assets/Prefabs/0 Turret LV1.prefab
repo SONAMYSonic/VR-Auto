@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 373951014289644317}
   - component: {fileID: 2155571514670398011}
   - component: {fileID: 5704926578713070732}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 0 Turret LV1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 373951014299464957}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mount_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 373951014299464959}
   - component: {fileID: 373951014296040669}
   - component: {fileID: 373951014297040413}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Base_Turret_Lt_Lvl2_Geom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,6 +242,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 373951014299464957}
     m_Modifications:
+    - target: {fileID: 100000, guid: 57bc481fd3e618d4d878f735f59f2b9b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 57bc481fd3e618d4d878f735f59f2b9b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 57bc481fd3e618d4d878f735f59f2b9b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 57bc481fd3e618d4d878f735f59f2b9b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 57bc481fd3e618d4d878f735f59f2b9b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 57bc481fd3e618d4d878f735f59f2b9b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 57bc481fd3e618d4d878f735f59f2b9b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 57bc481fd3e618d4d878f735f59f2b9b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -297,6 +325,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 373951013800456783}
     m_Modifications:
+    - target: {fileID: 100000, guid: 600c8c686245fcf41b89ec5147ab4478, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 600c8c686245fcf41b89ec5147ab4478, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 600c8c686245fcf41b89ec5147ab4478, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 600c8c686245fcf41b89ec5147ab4478, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0

@@ -6,23 +6,35 @@ using UnityEngine;
 public class UnitInteract : MonoBehaviour
 {
     public bool isTracking = false;
-    public GameObject Hand;
-    public Transform HandTr;
+    public GameObject LeftHand, RightHand;
+    public Transform LeftHandTr, RightHandTr;
+
+    public static int LeftOrRight = 1;  //왼쪽이 0 오른쪽이 1
 
     private void Start()
     {
-        Hand = GameObject.FindWithTag("RightController");
-        HandTr = Hand.transform;
+        LeftHand = GameObject.FindWithTag("LeftController");
+        RightHand = GameObject.FindWithTag("RightController");
+
+        LeftHandTr = LeftHand.transform;
+        RightHandTr = RightHand.transform;
     }
 
     public void unitClicked()
     {
         if(isTracking == false)
         {
-            //트래킹 시작
-            this.transform.SetParent(HandTr.transform);
-
-            isTracking = true;
+            switch (LeftOrRight)
+            {
+                case 0:
+                    this.transform.SetParent(LeftHandTr.transform);
+                    isTracking = true;
+                    break;
+                case 1:
+                    this.transform.SetParent(RightHandTr.transform);
+                    isTracking = true;
+                    break;
+            }
         }
         else if(isTracking == true)
         {
@@ -31,8 +43,7 @@ public class UnitInteract : MonoBehaviour
 
             isTracking = false;
         }
-        
-        
+
     }
 
 }

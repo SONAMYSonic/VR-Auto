@@ -68,6 +68,17 @@ namespace Valve.VR.Extras
             Material newMaterial = new Material(Shader.Find("Unlit/Color"));
             newMaterial.SetColor("_Color", color);
             pointer.GetComponent<MeshRenderer>().material = newMaterial;
+
+            if (this.gameObject.tag == "LeftController")
+            {
+                holder.gameObject.tag = "LeftController";
+                pointer.gameObject.tag = "LeftController";
+            }
+            else if (this.gameObject.tag == "RightController")
+            {
+                holder.gameObject.tag = "RightController";
+                pointer.gameObject.tag = "RightController";
+            }
         }
 
         public virtual void OnPointerIn(PointerEventArgs e)

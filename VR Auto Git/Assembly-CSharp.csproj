@@ -84,6 +84,7 @@
     <Compile Include="Assets\Import\AutoChess\Scripts\ChampionBonus.cs" />
     <Compile Include="Assets\Scripts\Game 1\Manager_Shop.cs" />
     <Compile Include="Assets\Import\AutoChess\Scripts\TriggerInfo.cs" />
+    <Compile Include="Assets\Scripts\Game 1\Manager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Import\Mech_Constructor_Turrets\Readme.txt" />

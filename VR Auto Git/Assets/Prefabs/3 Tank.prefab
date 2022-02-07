@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7222247308833005315}
   - component: {fileID: 3700419606937061525}
   - component: {fileID: 4226952736666714222}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SmallTank_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 8091282017603836782}
   - component: {fileID: 78796840267233902}
   - component: {fileID: 9168478862314491228}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SmallTank_WheelsBigFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 5400575082636721284}
   - component: {fileID: 8595929172014128921}
   - component: {fileID: 2910872016005482873}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SmallTank_WheelsBigBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 2205848814390540339}
   - component: {fileID: 4701626241076792863}
   - component: {fileID: 4446243665451426264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SmallTank_Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 3092646545694863034}
   - component: {fileID: 2426866517989334032}
   - component: {fileID: 917302134603441376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SmallTank_WheelsSmallUpper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 2857676171091954148}
   - component: {fileID: 3729561710966911190}
   - component: {fileID: 3646436653416806598}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SmallTank_WheelsSmallBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 8092153104109821067}
   - component: {fileID: 2448175333275409085}
   - component: {fileID: 1581873948501656002}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 3 Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,3 +606,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6f1a979c85cf24386082df902bb3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTracking: 0
+  Hand: {fileID: 0}
+  HandTr: {fileID: 0}
