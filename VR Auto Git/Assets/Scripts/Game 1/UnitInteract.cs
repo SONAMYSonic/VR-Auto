@@ -9,7 +9,10 @@ public class UnitInteract : MonoBehaviour
     public GameObject LeftHand, RightHand;
     public Transform LeftHandTr, RightHandTr;
 
+    Manager manager;
+
     public static int LeftOrRight = 1;  //왼쪽이 0 오른쪽이 1
+    public static int onFieldGraphic = 0;
 
     private void Start()
     {
@@ -18,6 +21,8 @@ public class UnitInteract : MonoBehaviour
 
         LeftHandTr = LeftHand.transform;
         RightHandTr = RightHand.transform;
+
+        manager = GameObject.FindWithTag("GM").GetComponent<Manager>();
     }
 
     public void unitClicked()
@@ -29,10 +34,12 @@ public class UnitInteract : MonoBehaviour
                 case 0:
                     this.transform.SetParent(LeftHandTr.transform);
                     isTracking = true;
+                    manager.mapGraphic.SetActive(true);
                     break;
                 case 1:
                     this.transform.SetParent(RightHandTr.transform);
                     isTracking = true;
+                    manager.mapGraphic.SetActive(true);
                     break;
             }
         }
@@ -40,10 +47,12 @@ public class UnitInteract : MonoBehaviour
         {
             //트래킹 종료
             this.transform.parent = null;
-
+            manager.mapGraphic.SetActive(false);
             isTracking = false;
         }
 
     }
+
+
 
 }

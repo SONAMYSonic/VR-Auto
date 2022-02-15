@@ -8,6 +8,14 @@ public class Manager : MonoBehaviour
 {
     public GameObject LeftController, RightController;
     public GameObject LeftLaser, RightLaser;
+    public GameObject mapGraphic;
+
+    UnitInteract UnitInteract;
+
+    private void Update()
+    {
+
+    }
 
     public void HandChange()
     {

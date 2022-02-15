@@ -4862,7 +4862,7 @@ Transform:
   m_GameObject: {fileID: 7694065919687656627}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 7694065919691920418}
   m_Father: {fileID: 0}
@@ -5009,8 +5009,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTracking: 0
-  Hand: {fileID: 0}
-  HandTr: {fileID: 0}
+  LeftHand: {fileID: 0}
+  RightHand: {fileID: 0}
+  LeftHandTr: {fileID: 0}
+  RightHandTr: {fileID: 0}
 --- !u!1 &7737935210733847413
 GameObject:
   m_ObjectHideFlags: 0
